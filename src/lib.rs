@@ -1,5 +1,7 @@
-use futures_channel::oneshot::{self, Canceled};
+use futures_channel::oneshot;
 use std::future::Future;
+
+pub use futures_channel::oneshot::Canceled;
 
 pub struct Completer<T> {
     tx: oneshot::Sender<T>,
