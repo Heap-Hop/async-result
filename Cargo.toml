@@ -6,8 +6,12 @@ version = "0.1.0"
 edition = "2021"
 authors = ["csf"]
 description = "A simple wrapper providing a convenient way to await a result, built on futures-channel's oneshot channel."
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+repository = "https://github.com/Heap-Hop/async-result"
+homepage = "https://github.com/Heap-Hop/async-result"
+readme = "README.md"
+keywords = ["async", "future", "callback", "promise", "completer"]
+categories = ["asynchronous"]
 
 [dependencies]
 futures-channel = "0.3"
