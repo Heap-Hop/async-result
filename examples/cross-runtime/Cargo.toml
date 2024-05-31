@@ -1,0 +1,11 @@
+[package]
+name = "cross-runtime"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-result = { path = "../.." }
+tokio = { version = "1", features = ["time" ,"rt-multi-thread"] }
+async-std = { version = "1" }
